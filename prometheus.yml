@@ -1,0 +1,8 @@
+scrape_configs:
+  - job_name:       'webapp-flask'
+
+    # Override the global default and scrape targets from this job every 5 seconds.
+    scrape_interval: 5s
+
+    static_configs:
+      - targets: ['app:5000']

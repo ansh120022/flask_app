@@ -1,0 +1,7 @@
+all:
+  hosts:
+    vm2:
+      ansilble_host: 51.250.4.191
+    vm3:
+      ansible_host: 51.250.12.252
+
